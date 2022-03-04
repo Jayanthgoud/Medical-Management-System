@@ -1,0 +1,9 @@
+create database databasesql; 
+use databasesql;  
+create table authentication(username varchar(20),password varchar(20)); 
+create table medicine(name varchar(20),quantity int(10),cost int(10));
+create table records(name varchar(20),phno varchar(20),medicine varchar (20),quantity varchar(20),date varchar(20));
+create table stockrecords(name varchar(20),quantity int(10),cost int(10));
+insert into authentication values("Jayanthgoud","1589");
+
+
